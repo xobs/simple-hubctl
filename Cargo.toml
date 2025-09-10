@@ -1,0 +1,13 @@
+[package]
+name = "hubctl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+env_logger = "0.11.8"
+eyre = "0.6.12"
+inquire = "0.7.5"
+log = "0.4.28"
+nusb = { version = "0.2.0", features = ["tokio"] }
+tokio = { version = "1.47.1", features = ["full"] }
+usb-ids = "1.2025.2"
